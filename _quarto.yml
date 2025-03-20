@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "novo-site"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+    right:
+      - about.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: false
+
+editor: visual
+
